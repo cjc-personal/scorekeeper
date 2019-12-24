@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Score Keeper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Score Keeper</h1>
+  </header>
+    <section id="team1">
+      <h2 id="team1Name" onclick="changeName(team1)">Team 1</h2>
+      <h3 id="team1Score">Score</h3>
+      <h4 onclick="scoreUp(team1)">Score Up</h4>
+      <h4 onclick="scoreDown(team1)">Score Down</h4>
+
+    </section>
+    <section id="team2">
+      <h2 id="team2Name">Team 2</h2>
+      <h3 id="team2Score">0</h3>
+      <h4 onclick="scoreUp(team2)">Score Up</h4>
+      <h4 onclick="scoreDown(team2)">Score Down</h4>
+      
+
+    </section>
+    <section>
+      <h5 onclick="resetScores()">Reset Scores</h5>
+      <h5 onclick="resetScreen()">Reset Screen</h5>
+    </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
